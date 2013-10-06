@@ -1,5 +1,4 @@
 <?php
-# c
 require_once "excel.php";
 $houses_array = array();
 $start_page = curl_init('http://grapevine.ca/search-results/classic?field_listing_rent_price_value[min]=0&field_listing_rent_price_value[max]=0&field_listing_sale_price_value[min]=0&field_listing_sale_price_value[max]=99999999&&&field_listing_bedrooms_value=&field_listing_bathrooms_value=&keys=&field_listing_go_live_date_value[value]=&created=&field_listing_open_house_value=&field_listing_address_thoroughfare=&sort_by=priority&sort_order=DESC&search_listings_type=Home&view-type=classic&op=Search');
